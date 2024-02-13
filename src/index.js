@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('¡Hola desde Express!');
+app.get('/qring', (req, res) => {
+  res.send('¡Te estan tocando el timbre!');
 });
 
 app.listen(PORT, () => {
